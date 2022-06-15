@@ -12,4 +12,3 @@ sol=sc.odeint(logist_cont, y0, t, args=(r, k)) #integrate the differential equar
 plt.plot(t,sol) #plots function
 plt.show() #shows plot
 print(sol[0][0]) #array and actual component of array
-#emily was here

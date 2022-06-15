@@ -1,4 +1,4 @@
-#Question 1:
+#Logistic model commonly used for population growth
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.integrate as sc

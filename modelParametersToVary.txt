@@ -1,0 +1,14 @@
+1. smb stuff
+Parameters are: smb0(0.3), smb1(0.15), smbf(0.0)
+
+
+2. sill stuff
+Parameters are: sillmin(415e3), sillmax(425e3), sillslope(0.01)
+
+
+3. initial stuff 
+Parameters are: Hnd(2.18), Lnd(4.44), bx(-0.001) (slope)
+Hnd options: [0.18, 0.68, 1.18, 1.68, 2.18, 2.68, 3.18, 3.68, 3.18]
+Lnd options: [0.44, 1.44, 2.44, 3.44, 4.44, 5.44, 6.44, 7.44, 8.44]
+bx options: [-0.015, -0.01, -0.005, -0.002, -0.0015, -0.001, -0.0005, 0]
+

@@ -80,13 +80,13 @@ xlabel("Time, t")
 ylabel("Length, L(t)")
 saveas(gcf, "L(t)sillminsillmaxsillslope10.png")
 hold off
-valuesh = ["1.962","2.0056","2.0492","2.0928","2.1364","2.18","2.2236","2.2672","2.3108","2.3544","2.398"];
-valuesl = ["3.966","4.0548","4.1436","4.2324","4.3212","4.41","4.4988","4.5876","4.6764","4.7652","4.854"];
+valuesh = ["2.1364"];
+valuesl = ["4.3212"];
 valuesbx = ["-0.0011","-0.00108","-0.00106","-0.00104","-0.00102","-0.001","-0.00098","-0.00096","-0.00094","-0.00092","-0.0009"];
 figure(5)
-for k = 1:2:length(valuesh)
-    for j = 1:2:length(valuesl)
-        for i = 1:2:length(valuesbx)
+for k = 1:length(valuesh)
+    for j = 1:length(valuesl)
+        for i = 1:length(valuesbx)
             T = readtable("data_matrix_10/smbt11950smbtf2300smb00.3smb10.15smbf0.0" + ...
                 "sillmin415sillmax425sillslope0.01hnd"+valuesh(k)+"lnd"+valuesl(j) ...
                 +"bx"+valuesbx(i)+".csv");
@@ -102,7 +102,7 @@ for k = 1:2:length(valuesh)
 end
 xlabel("Time, t")
 ylabel("Height, H(t)")
-saveas(gcf, "H(t)hndlndbx10.png")
+saveas(gcf, "H(t)hndlndbx10single.png")
 hold off
 figure(6)
 for k = 1:2:length(valuesh)
@@ -123,5 +123,5 @@ for k = 1:2:length(valuesh)
 end
 xlabel("Time, t")
 ylabel("Length, L(t)")
-saveas(gcf, "L(t)hndlndbx10.png")
+saveas(gcf, "L(t)hndlndbx10single.png")
 hold off

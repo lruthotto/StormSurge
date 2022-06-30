@@ -32,7 +32,7 @@ xlim([0 2300])
 xlabel("t")
 ylim([1.5 2.5])
 ylabel("H(t)")
-legend("H(t): Truth", "H(t): Observations","H(t): Different Initial Conditions", "H(t): Ensemble")
+legend("H(t): Truth","H(t): Different Initial Conditions", "H(t): Observations", "H(t): Ensemble")
 saveas(gcf, "H(t)truth_and_ensemble_obs.png")
 plot(t0,table2array(T(:,"aH")),"k","LineWidth",4,"DisplayName","H(t): Analysis")
 legend

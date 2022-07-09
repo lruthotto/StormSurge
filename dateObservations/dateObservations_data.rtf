@@ -4,7 +4,7 @@
 }
 {\*\expandedcolortbl;;\cssrgb\c20000\c20000\c20000;\cssrgb\c26667\c54902\c15294;\cssrgb\c96078\c96078\c96078;
 }
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\margl1440\margr1440\vieww25780\viewh13500\viewkind0
 \deftab720
 \pard\pardeftab720\sl360\partightenfactor0
 
@@ -16,6 +16,21 @@
 \outl0\strokewidth0 \
 \pard\pardeftab720\sl360\partightenfactor0
 \cf2 \
+\
+Below is the data gathered from simulating the convergence of our output using the two-stage ice sheet model and the truth simulation above and assimilating data based on \'91observations\'92 over 350 years (from 1950 to 2300) with varying time intervals between \'91observations\'92. \
+The Data in the following Table is given in up to 7 significant digits:\
+\
+Label          | # of Observations | Mean of Covariance Norms (CNs) | Variance of CNs |  Minimum  | Maximum \
+Every 3 months | 1400              | 0.0073922                      | 1.04e-05        | 0.0014523 | 0.026898\
+Every 6 months | 700               | 0.0071205                      | 1.01e-05        | 0.0015455 | 0.0231747        \
+Yearly         | 350               | 0.0081216                      | 9.3e-06         | 0.0019141 | 0.020219         \
+Every 2 years  | 175               | 0.0071475                      | 9e-06           | 0.0012133 | 0.0186514        \
+Every 4 years  | 88                | 0.0065967                      | 1.07e-05        | 0.0011107 | 0.016873          \
+Every 8 years  | 44                | 0.0072841                      | 1.45e-05        | 0.0012351 | 0.0209728          \
+Every 16 years | 22                | 0.0073536                      | 1.7e-05         | 0.0029061 | 0.0212402         \
+\
+We see that for this example, our results get closest to the truth simulations when assimilating observations  once every 2 years.\
+\
 -\
 \
 \pard\pardeftab720\sl360\partightenfactor0
@@ -44,7 +59,8 @@ maximum:  0.020219  - note: all rounded to 7 significant digits\
 \
 -\
 \
-Number of observations since 1950:  175\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf2 Number of observations since 1950:  175\
 Mean of covariance norms:  0.0071475\
 Variance of covariance norms:  9e-06\
 minimum:  0.0012133\

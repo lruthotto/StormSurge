@@ -33,7 +33,7 @@ xlabel("t")
 ylim([1.5 2.5])
 ylabel("H(t)")
 legend("H(t): Truth","H(t): Different Initial Conditions", "H(t): Observations", "H(t): Ensemble")
-saveas(gcf, "data_single_cases_analysis/H(t)truth_and_ensemble_obs.png")
+saveas(gcf, "data_single_cases_analysis/H(t)truth_and_ensemble_obs_fixed_obs.png")
 plot(t0,table2array(T(:,"aH")),"k","LineWidth",4,"DisplayName","H(t): Analysis")
 legend
 hold off

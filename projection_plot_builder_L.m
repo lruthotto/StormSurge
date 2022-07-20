@@ -4,6 +4,7 @@ OBS = readtable("/Users/loganknudsen/Documents/GitHub/StormSurge/Experiment_Data
 t0 = table2array(T(:,"t"));
 t1=table2array(T(2:end,"t"));
 t2=table2array(OBS(:,"t"));
+disp(OBS)
 figure(1)
 plot(t0,table2array(T(:,"L")),"r","LineWidth",4,"DisplayName","L(t): Truth")
 hold on

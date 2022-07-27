@@ -1,0 +1,16 @@
+T0 = readtable("/Users/loganknudsen/Desktop/adcirc_v55.01/work/inlet_w_0_km/fort63.txt");
+data0 = table2array(T0(find(table2array(T0(:,"Var1"))==1),"Var2"));
+plot(data0)
+hold on 
+T1 = readtable("/Users/loganknudsen/Desktop/adcirc_v55.01/work/inlet_w_5_km/fort63.txt");
+data1 = table2array(T1(find(table2array(T1(:,"Var1"))==1),"Var2"));
+plot(data1)
+T2 = readtable("/Users/loganknudsen/Desktop/adcirc_v55.01/work/inlet_w_25_km/fort63.txt");
+data2 = table2array(T2(find(table2array(T2(:,"Var1"))==1),"Var2"));
+plot(data2)
+T3 = readtable("/Users/loganknudsen/Desktop/adcirc_v55.01/work/inlet_w_50_km/fort63.txt");
+data3 = table2array(T3(find(table2array(T3(:,"Var1"))==1),"Var2"));
+plot(data3)
+T4 = readtable("/Users/loganknudsen/Desktop/adcirc_v55.01/work/inlet_w_75_km/fort63.txt");
+data4 = table2array(T4(find(table2array(T4(:,"Var1"))==1),"Var2"));
+plot(data3)

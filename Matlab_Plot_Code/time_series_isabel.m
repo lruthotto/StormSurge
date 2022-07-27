@@ -28,6 +28,7 @@ ylim([min(data0)-0.1 max(data5)+0.2])
 title("Storm Surge Height v. Time for Hurricane Isabel")
 xlabel("Time (1\times10^3 s)")
 ylabel("Storm Surge (m)")
+saveas(gcf,"/Users/loganknudsen/Documents/GitHub/StormSurge/Manuscript_Plots/ADCIRC_plots/isabel_time_series_from_0.png")
 hold off
 figure(2)
 plot(data1(160:end),"LineWidth",2)
@@ -42,4 +43,5 @@ xticks(0:5:45)
 xticklabels(string((160:5:205)*3.6))
 xlabel("Time (1\times10^3 s)")
 ylabel("Storm Surge (m)")
+saveas(gcf,"/Users/loganknudsen/Documents/GitHub/StormSurge/Manuscript_Plots/ADCIRC_plots/isabel_time_series_from_160.png")
 hold off

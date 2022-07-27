@@ -26,3 +26,4 @@ title("Storm Surge Height v. Time for Idealized Inlet")
 xlabel("Time (1\times10^2 s)")
 ylabel("Storm Surge (m)")
 hold off
+saveas(gcf,"/Users/loganknudsen/Documents/GitHub/StormSurge/Manuscript_Plots/ADCIRC_plots/inlet_time_series.png")

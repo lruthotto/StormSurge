@@ -4,3 +4,7 @@ Welcome! This is the repository for sharing code between Emily, Hannah and Logan
 The code used to run model and perform assimilation is [here](https://github.com/hakuupi/StormSurge/tree/main/Juypter_Notebook_Code), we ran Python in Jupyter Notebook to generate data and run model.<br/>
 Our data is stored [here](https://github.com/hakuupi/StormSurge/tree/main/Experiment_Data) and is saved in csv files. Note that the parameters and initial conditions used are in the name of the file. <br/>
 The MATLAB code used to generate graphics used in our paper is found [here](https://github.com/hakuupi/StormSurge/tree/main/Matlab_Plot_Code).
+
+# Acknowledgements
+
+This work is partially supported by the US National Science foundation award DMS-2051019. Any opinions, findings, and conclusions or recommendations expressed on this website are those of the author(s) and do not necessarily reflect the views of the funding agency.
